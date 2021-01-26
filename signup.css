@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    width: 100px;
+    flex: 0;
+    object-fit: contain;
+}
+.header__text{
+   
+    text-align: center;
+    flex: 1;
+
+
+
+}
+.createaccount{
+    width: 50%;
+    margin: 20px auto;
+    /* border: 1px solid ; */
+    /* border-color:black; */
+    background-color:rgb(237,234, 234);
+
+    
+   
+    
+}
+.createaccount__text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+.createaccount__input{
+    width: 50%;
+    margin:20px auto;
+}
+.createaccount__buttons{
+    display: flex;
+    justify-content: center;
+  
+}
+.createaccount__buttons > button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+
+.createaccount__buttons > button:hover{
+    border: 1px solid lightgray !important;
+}
+
+
+.verifyemail{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid lightgray;  
+
+}
+.verifyemail__text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.verifyemail__ptext{
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+   
+}
+.verifyemail__buttons{
+    display: flex;
+    justify-content: center;
+  
+}
+.verifyemail__buttons > button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+
+.verifyemail__buttons > button:hover{
+    border: 1px solid lightgray !important;
+}
+.verifyemail__ptext2{
+    width:58%;
+    margin: 20px auto;
+    text-align: center;
+   
+}
+.verifyemail__anchor{
+    display: block !important;
+    margin: 20px auto;
+    width: 120px;
+}
+.verifyemail__ntext{
+    margin-left:10px;
+    text-align: justify;
+}
+.small__text{
+    color: green;
+}
+
+

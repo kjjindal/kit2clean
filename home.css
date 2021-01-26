@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black !important;
+}
+.home__header{
+    display: flex;
+    align-items: center;
+    
+}
+.home__logo{
+    width: 100px;
+    flex: 0;
+}
+.home__text{
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+.home__textp1{
+    font-size:2.5rem;
+
+}
+.home__textp2{
+    font-size:2.5rem;
+}
+.home__cardbox{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.card{
+   width:30% !important;
+   margin-left: 20px;
+   margin-right: 10px;
+   background-color: aquamarine ;
+}
+.card-body{
+    text-align: justify !important;
+}
+.home__listandsigninbox{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+.home__list{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.home__signin{
+    flex:0.5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.home__buttons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home__buttons > button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__buttons > button:hover{
+    border: 1px solid lightgray !important;
+}
+
+.home__buttons > a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__buttons > a:hover{
+    border: 1px solid lightgray !important;
+}
+.home__image{
+    display: flex;
+
+}
+.home__image > img{
+    width:50px;
+   transition: transform 450ms;
+   margin-left:10px;
+   object-fit: contain;
+
+
+}
+.home__image > img:hover{
+    transform: scale(1.20);
+}
+
+

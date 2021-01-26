@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+
+}
+.header__text{
+    text-align: center;
+    margin-left: 10px;
+    flex: 1;
+
+}
+.header__logo{
+    width: 100px;
+    flex: 0;
+}
+.accountcreation__haddress{
+    width: 90%;
+    margin: 20px auto;
+}
+.accountcreation__addressinputbox{
+    width:90% ;
+    margin: 20px auto;
+}
+.accountcreation__addressinputbox > div {
+    width:35%;
+
+}
+.accountcreation__buttons{
+    width:100% !important;
+    margin: 20px auto;
+}
+.accountcreation__buttons>button{
+    background-color: yellow;
+
+}
+
+.accountcreation__buttons>button:hover{
+   border: 1px solid lightgray !important;
+}
+
+
+
+
